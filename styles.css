@@ -1,7 +1,9 @@
 /*  your css code here. If applicable */
 table {
-    width: 100%;
-    border-collapse: collapse;
+    width: 30%;
+    /* border-collapse: collapse; */
+	text-align: center;
+	
 }
 
 th, td {
@@ -12,6 +14,7 @@ th, td {
 
 tbody tr:nth-child(odd) {
     background-color: #f2f2f2;
+	border: 1px solid #ccc;
 }
 
 tbody tr:nth-child(even) {
